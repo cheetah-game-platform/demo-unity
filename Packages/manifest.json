@@ -3,20 +3,21 @@
     "com.unity.collab-proxy": "1.15.18",
     "com.unity.feature.development": "1.0.1",
     "com.unity.ide.rider": "3.0.15",
-    "com.unity.ide.visualstudio": "2.0.16",
+    "com.unity.ide.visualstudio": "2.0.16", 
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.test-framework": "1.1.31",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.6.4",
     "com.unity.ugui": "1.0.0",
     "com.unity.visualscripting": "1.7.8",
-    "games.cheetah.matches.matchmaking": "0.0.2",
-    "games.cheetah.matches.realtime": "0.0.2",
-    "games.cheetah.matches.registry": "0.0.2",
-    "games.cheetah.statistics.events": "0.0.2",
-    "games.cheetah.system.compatibility": "0.0.2",
-    "games.cheetah.user.accounts": "0.0.2",
-    "games.cheetah.user.store": "0.0.2",
+    "games.cheetah.matches.matchmaking": "0.0.21",
+    "games.cheetah.matches.realtime": "0.0.21",
+    "games.cheetah.matches.realtime.embedded-server": "0.0.21",
+    "games.cheetah.matches.registry": "0.0.21",
+    "games.cheetah.statistics.events": "0.0.21",
+    "games.cheetah.system.compatibility": "0.0.21",
+    "games.cheetah.user.accounts": "0.0.21",
+    "games.cheetah.user.store": "0.0.21",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
@@ -57,5 +58,9 @@
         "games.cheetah"
       ]
     }
+  ],
+  "testables": [
+    "games.cheetah.matches.realtime",
+    "games.cheetah.matches.realtime.embedded-server"
   ]
 }
